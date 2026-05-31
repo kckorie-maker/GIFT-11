@@ -34,13 +34,12 @@ Analyst Thinking Patterns
 This isn't random practice. Each question reflects real-world logic:
 
 Question You Ask	SQL Tool
-"Are we double counting?"	DISTINCT
-"What data is missing?"	NULL handling
-"How do we summarize this?"	GROUP BY
-"Which groups actually matter?"	HAVING
-"Can a business user understand this?"	ALIAS
-Getting Started
-Open your SQL editor
+* "Are we double counting?"	DISTINCT
+* "What data is missing?"	NULL handling
+* "How do we summarize this?"	GROUP BY
+* "Which groups actually matter?"	HAVING
+* "Can a business user understand this?"	ALIAS
+
 
 
 
