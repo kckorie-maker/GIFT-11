@@ -12,25 +12,24 @@ Core SQL Functions Covered
 
 Basic Analysis
 * Task	
-1	List unique countries where customers are located	DISTINCT, Alias
-2	Find customers with no region assigned	NULL handling
-3	Calculate total number of orders	COUNT(), Alias
-Financial & Revenue Analysis
+*	List unique countries where customers are located	DISTINCT, Alias
+*	Find customers with no region assigned	NULL handling
+*	Calculate total number of orders	COUNT(), Alias
+* Financial & Revenue Analysis
 * Task
-4	Calculate total revenue (Price × Quantity × (1 - Discount))	SUM(), Business logic
-7	Calculate average freight cost per customer	AVG(), GROUP BY
-Performance & Grouping
+*	Calculate total revenue (Price × Quantity × (1 - Discount))	SUM(), Business logic
+*	Calculate average freight cost per customer	AVG(), GROUP BY
+* Performance & Grouping
 * Task	
-5	Find total number of products per category	GROUP BY, COUNT()
-8	Find suppliers who supply more than 5 products	GROUP BY, HAVING
-Customer & Market Insights
+*	Find total number of products per category	GROUP BY, COUNT()
+*	Find suppliers who supply more than 5 products	GROUP BY, HAVING
+* Customer & Market Insights
 * Task	
-6	Find customers with more than 10 orders	GROUP BY, HAVING
-9	Find countries with more than 5 customers	DISTINCT, GROUP BY, HAVING
-Operational Audit
+*	Find customers with more than 10 orders	GROUP BY, HAVING
+*	Find countries with more than 5 customers	DISTINCT, GROUP BY, HAVING
+* Operational Audit
 * Task
-10	Count orders that haven't shipped yet	NULL check (ShippedDate IS NULL)
-Analyst Thinking Patterns
+* Analyst Thinking Patterns
 This isn't random practice. Each question reflects real-world logic:
 
 Question You Ask	SQL Tool
